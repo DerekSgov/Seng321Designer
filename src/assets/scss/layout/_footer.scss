@@ -11,7 +11,7 @@
 		@include vendor('flex-wrap', 'wrap');
 		@include padding(5em, 5em);
 		width: calc(100% + #{_size(element-margin)});
-		margin: 0 0 (_size(element-margin) * 1.5) (_size(element-margin) * -1);
+		margin: 0 0 0 (_size(element-margin) * -1);
 
 		> * {
 			width: calc(50% - #{_size(element-margin)});
@@ -20,7 +20,7 @@
 
 		.copyright {
 			width: 100%;
-			margin: (_size(element-margin) * 1.25) 0 _size(element-margin) 0;
+			margin: 0;
 			font-size: 0.8em;
 			text-align: center;
 		}
@@ -32,13 +32,13 @@
 		@include breakpoint(medium) {
 			@include padding(4em, 3em);
 			display: block;
-			margin: 0 0 (_size(element-margin) * 1.5) 0;
+			margin: 0 0 0 0;
 			width: 100%;
 
 			> * {
 				width: 100%;
 				margin-left: 0;
-				margin-bottom: (_size(element-margin) * 1.5);
+				margin-bottom: 0;
 			}
 
 			.copyright {
