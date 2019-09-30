@@ -8,7 +8,7 @@ const Footer = props => (
       <dl className="alt">
         <dt>Email</dt>
         <dd>AidConnect@outlook.com</dd>
-        <dd>Disclaimer: This site is only for a school project</dd>
+        <p>Disclaimer: This site is only for a school project</p>
       </dl>
       <ul className="icons">
         <li>
