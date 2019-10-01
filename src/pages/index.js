@@ -10,6 +10,7 @@ import Alex from '../assets/images/Alex.jpg'
 import Derek from '../assets/images/Derek.jpg'
 import ShoYa from '../assets/images/Sho.jpg'
 import Charles from '../assets/images/Charles.jpg'
+import RFP from '../assets/images/Requirements-Document-template.pdf'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -107,7 +108,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button special">
+                  <Link to={RFP} className="button special">
                     View Document
                   </Link>
                 </li>
@@ -121,3 +122,4 @@ class Index extends React.Component {
 }
 
 export default Index
+
