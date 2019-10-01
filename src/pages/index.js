@@ -1,8 +1,6 @@
-import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import pic01 from '../assets/images/pic01.jpg'
 import Jerusha from '../assets/images/Jerusha.jpg'
 import Andrew from '../assets/images/Andrew.jpg'
 import Samuel from '../assets/images/Samuel.jpg'
@@ -10,7 +8,6 @@ import Alex from '../assets/images/Alex.jpg'
 import Derek from '../assets/images/Derek.jpg'
 import ShoYa from '../assets/images/Sho.jpg'
 import Charles from '../assets/images/Charles.jpg'
-import RFP from '../assets/images/Requirements-Document-template.pdf'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -108,7 +105,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <a href='../assets/images/Requirements-Document-template.pdf' className="button special">
+                  <a href='/static/assets/RD1.pdf' className="button special">
                     View Document
                   </a>
                 </li>
