@@ -8,6 +8,7 @@ import Alex from '../assets/images/Alex.jpg'
 import Derek from '../assets/images/Derek.jpg'
 import ShoYa from '../assets/images/Sho.jpg'
 import Charles from '../assets/images/Charles.jpg'
+import Bella from '../assets/images/Bella.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -94,6 +95,11 @@ class Index extends React.Component {
               <span className="image headshot"><img src={Charles} alt=""/></span>
                 <h3>Yang, Charles</h3>
                 <p>Position Here</p>
+              </li>
+              <li>
+              <span className="image headshot"><img src={Bella} alt=""/></span>
+                <h3>Bella</h3>
+                <p>Resident Snow Lover</p>
               </li>
             </ul>
           </section>
