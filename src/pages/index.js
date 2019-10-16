@@ -1,8 +1,6 @@
-import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import pic01 from '../assets/images/pic01.jpg'
 import Jerusha from '../assets/images/Jerusha.jpg'
 import Andrew from '../assets/images/Andrew.jpg'
 import Samuel from '../assets/images/Samuel.jpg'
@@ -10,7 +8,9 @@ import Alex from '../assets/images/Alex.jpg'
 import Derek from '../assets/images/Derek.jpg'
 import ShoYa from '../assets/images/Sho.jpg'
 import Charles from '../assets/images/Charles.jpg'
-import RFP from '../assets/images/Requirements-Document-template.pdf'
+import Bella from '../assets/images/Bella.jpg'
+import Blackie from '../assets/images/Blackie.png'
+import Golden from '../assets/images/Golden.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -34,7 +34,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="Snowlutions" />
 
         <Header />
 
@@ -98,6 +98,28 @@ class Index extends React.Component {
                 <h3>Yang, Charles</h3>
                 <p>Position Here</p>
               </li>
+              </ul>
+            </section>
+            <section id="second" className="main special">
+              <header className="major">
+                <h2>Special Mentions</h2>
+              </header>
+              <ul className="features">
+                <li>
+              <span className="image headshot"><img src={Bella} alt=""/></span>
+                <h3>Bella</h3>
+                <p>Resident Snow Lover</p>
+              </li>
+              <li>
+              <span className="image headshot"><img src={Golden} alt=""/></span>
+                <h3>Golden</h3>
+                <p>Grass Tester</p>
+              </li>
+              <li>
+              <span className="image headshot"><img src={Blackie} alt=""/></span>
+                <h3>Blackie</h3>
+                <p>Goofball</p>
+              </li>
             </ul>
           </section>
           <section id="cta" className="main special">
@@ -108,7 +130,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <a href='../assets/images/Requirements-Document-template.pdf' className="button special">
+                  <a href='/static/assets/RD1.pdf' className="button special">
                     View Document
                   </a>
                 </li>
