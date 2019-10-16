@@ -102,7 +102,7 @@ class Index extends React.Component {
           </section>
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Requirements document</h2>
+              <h2>Requirements Document</h2>
               <p>As a response to the RFP put forward by Steep Mountaineering, we have put together this requirments document for a solution system.</p>
             </header>
             <footer className="major">
@@ -111,6 +111,21 @@ class Index extends React.Component {
                   <a href='../assets/images/Requirements-Document-template.pdf' className="button special">
                     View Document
                   </a>
+                </li>
+              </ul>
+            </footer>
+          </section>
+          <section id="RSD" className="main special">
+            <header className="major">
+              <h2>Requirements Specification Document</h2>
+              <p>Here at Snowlutions, we have continued to work on developing a solution for Steep Mountaineering, come take a look at our RSD!</p>
+            </header>
+            <footer className="major">
+              <ul className="actions">
+                <li>
+                  {/*<a href='../assets/images/Requirements-Document-template.pdf' className="button special">
+                    View Document
+    </a>*/}
                 </li>
               </ul>
             </footer>

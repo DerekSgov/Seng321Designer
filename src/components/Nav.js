@@ -17,7 +17,12 @@ const Nav = (props) => (
             </li>
             <li>
                 <Scroll type="id" element="cta">
-                    <a href="#">Requirements document</a>
+                    <a href="#">Requirements Document</a>
+                </Scroll>
+            </li>
+            <li>
+                <Scroll type="id" element="RSD">
+                    <a href="#">Requirements Specification Document</a>
                 </Scroll>
             </li>
         </Scrollspy>
