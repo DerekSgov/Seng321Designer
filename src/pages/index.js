@@ -145,7 +145,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                    <a href='/' className="button special">
+                    <a href='/static/assets/RSD1.pdf' className="button special">
                       View Document
                     </a>
                 </li>
